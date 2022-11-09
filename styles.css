@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+    height: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ccc;
+    position: absolute;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .5);
+    font-family: 'Candara';
+    padding: 1%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+h1{
+    font-size: 2rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+#content{
+    background-color: rgb(25, 25, 25);
+    padding: 1%;
+    border-radius: 10px;
+    
+}
+#content-header{
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    color: #f9f9f9;
+}
+#button-start{
+    padding: 1%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 3rem;
+}
+#contactMe-section{
+    padding: 1%;
+}
+#contactMe-title{
+    font-size: 1.5rem;
+    font-family: Verdana;
+    padding: 1%;
+}
+#copyright-section{
+    font-size: .6rem;
+    margin-top: 1%;
+}
+
+.name-color{
+    font-weight: bold;
+    color: #f9f9f9;
+}
+.icons{
+    padding: .5%;
+    font-size: 1.5rem;
+}
+
+#button-start:hover{
+    opacity: .5;
+    cursor: pointer;
+}
