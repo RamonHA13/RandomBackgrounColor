@@ -1,3 +1,3 @@
 # RandomBackgrounColor
 Generador de colores de fondo aleatorio
-https://github.com/RamonHA13/RandomBackgrounColor/blob/main/Example.png
+[![Example.png](https://i.postimg.cc/44VLGrzG/Example.png)](https://postimg.cc/23jFF9c9)
